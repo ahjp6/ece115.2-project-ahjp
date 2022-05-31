@@ -90,8 +90,8 @@ class Gui(object):
                 self.win.master.after(10, self.update)
 
 def main():
-        stop = Stopwatch()
-        gui = Gui(stop)
+        stopw = Stopwatch()
+        gui = Gui(stopw)
         
 if __name__ == '__main__':
         main()
