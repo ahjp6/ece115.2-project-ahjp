@@ -7,7 +7,7 @@ def sec2hmsc(secs):
         return (int(hours), int(minutes), int(seconds), int(cseconds))
 
 class Stopwatch(object):
-        def __innit__(self):
+        def __init__(self):
                 self.then = 0.0
                 self.elapsed = 0.0
                 self.running = False
@@ -35,7 +35,7 @@ class Stopwatch(object):
 
 class Gui(object):
 
-        def __innit__(self, stopwatch):
+        def __init__(self, stopwatch):
                 self.win = Window()
                 self.stopw = stopwatch
                 self.freeze = False
